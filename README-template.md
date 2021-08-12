@@ -30,7 +30,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [Github](https://github.com/rivaldyava01/Frontend-Mentor-Profile-Card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://rivaldyava01.github.io/Frontend-Mentor-Profile-Card/)
 
 ## My process
 
