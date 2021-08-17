@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="index.css">
   
   <title>Frontend Mentor | Profile card component</title>
 
@@ -12,12 +13,12 @@
 <body>
 
   <div class="container">
-      <img id="patern-top" src="./images/bg-pattern-top.svg">
-      <img id="patern-bottom" src="./images/bg-pattern-bottom.svg">
+      <img id="patern-top" src="./images/bg-pattern-top.svg" alt="pattern top for backgrund">
+      <img id="patern-bottom" src="./images/bg-pattern-bottom.svg" alt="pattern bottom for backgrund">
     <div class="card">
-      <img id="backgroud-card" src="./images/bg-pattern-card.svg">
+      <img id="backgroud-card" src="./images/bg-pattern-card.svg" alt="background for profile card">
       <div class="photo">
-        <img id="photo-profile" src="images/image-victor.jpg">
+        <img id="photo-profile" src="images/image-victor.jpg" alt="photo profile">
       </div>
       <div class="card-item">
         <h1>Victor Crest <a>26</a></h1>
@@ -48,127 +49,3 @@
   </div>
 </body>
 </html>
-
-<style>
-  /* background */
-  #patern-top{
-    width: 1000px;
-    margin-top: -600px;
-    margin-left: -400px;
-  }
-  #patern-bottom{
-    max-width: 1000px;
-    margin-bottom: -900px;
-    margin-top: -100px;
-    margin-right: -700px;
-  }
-  body{
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: hsl(185, 75%, 39%);
-    overflow: hidden;
-  }
-
-/* photo-profile */
-  #photo-profile{
-    border-radius: 50%;
-    margin-left: 7px;
-    margin-top: 8px;
-  }
-
-  .photo{
-    background-color: white;
-    border-radius: 60%;
-    width: 110px;
-    height: 110px;
-    margin-top: -50px;
-    margin-left: 125px;
-    position: relative;
-  }
-
-  /* backgroud-card */
-  #backgroud-card{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-
-  /* card settings */
-  .card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: auto;
-    max-width: 350px;
-    background-color: white;
-    position: relative;
-    margin-top: -300px;
-    border-radius: 10px;
-  }
-
-  /* name,age,city settings */
-  .card-item{
-    text-align: center;
-  }
-  h1{
-    font-size: 18px;
-  }
-  a{
-    color: hsl(0, 0%, 59%);
-  }
- 
-  #city{
-    color: hsl(227, 10%, 46%);
-  }
-
-  
-/* stat settings */
-  .grid-container{
-    border-top: 1px groove;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    text-align: center;
-  }
-
-  .grid-item{
-    margin-top: 0;
-    margin-bottom: 2px;
-  }
- .stat{
-   margin-bottom: -10px;
-   font-size: 18px;
-   color: hsl(229, 23%, 23%);
- }
-  .desc{
-    color: hsl(227, 10%, 46%);
-  }
-
-  /* copyright */
-  .attribution{ 
-    font-size: 11px; text-align: center; 
-  }
-  .attribution a{ 
-    color: hsl(228, 45%, 44%); 
-  }
-  
-  @media screen and (max-width: 800px) {
-    body{
-      overflow-x: hidden;
-      /* margin: auto; */
-      position: fixed;
-      background-size: contain;
-    }
-
-    .container{
-      margin-top: 220px;
-      position: fixed;
-    }
-      #patern-top{
-      width: 500px;
-      margin-top: -300px;
-      margin-left: -300px;
-    }
-    #patern-bottom{
-      max-width: 500px;
-      margin-bottom: -450px;
-    }
-  }
-
-</style>
